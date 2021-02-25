@@ -1,0 +1,16 @@
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: .7em;
+    grid-column-gap: .7em;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+
+.post {
+    border: 2px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    background-color: #C0DDF5;
+}
